@@ -26,12 +26,12 @@ st.sidebar.header("📥 Ingresar datos")
 
 entrada = {}
 
-for col in columnas[:15]:
+for col in columnas[:5]:
     entrada[col] = st.sidebar.number_input(
         col,
-        min_value=0.0,
-        value=0.0,
-        step=1.0
+        min_value=0,
+        value=0,
+        step=1
     )
 
 # =========================
